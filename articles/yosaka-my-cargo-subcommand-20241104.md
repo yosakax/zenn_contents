@@ -19,7 +19,7 @@ Cargoのサブコマンドとして自作のコマンドを実行する方法を
 
 ### 1. 実行形式のファイルを作成する
 
-`src/bin/*.rs`ファイルをfzfで選択し、`cargo run --bin`で実行します。
+`src/bin/*.rs`ファイルをfzfで選択し、`cargo run --bin`で実行するスクリプトを作成します。
 
 ```sh
 #!/bin/bash
@@ -36,7 +36,7 @@ TARGET_NAME=$(basename -s .rs "$TARGET")
 cargo run --bin "$TARGET_NAME"
 ```
 
-このスクリプトを `cargo-hoge` という名前で保存します。ファイルに実行権限を付与しておきます。
+このスクリプトを `cargo-select` という名前で保存します。ファイルに実行権限を付与しておきます。
 
 ```sh
 chmod +x cargo-select
