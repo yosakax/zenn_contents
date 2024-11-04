@@ -3,7 +3,7 @@ title: "cargoでサブコマンドを簡単に作る"
 emoji: "💭"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["rust", "cargo"]
-published: false
+published: true
 ---
 
 ## 概要
